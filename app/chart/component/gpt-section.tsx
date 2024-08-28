@@ -63,7 +63,7 @@ export default function Gpt_Section({}: Props) {
           </div>
         </div>
         <div>
-          <Image src={gptImg} alt="img" />
+          <Image src={gptImg} alt="img" width={550} className=" rounded-xl" />
         </div>
       </div>
     </div>

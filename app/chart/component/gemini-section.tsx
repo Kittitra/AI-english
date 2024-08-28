@@ -63,7 +63,12 @@ export default function Gemini_Section({}: Props) {
           </div>
         </div>
         <div>
-          <Image src={imgGemini} alt="imgGemini" />
+          <Image
+            src={imgGemini}
+            alt="imgGemini"
+            width={550}
+            className=" rounded-xl"
+          />
         </div>
       </div>
     </div>

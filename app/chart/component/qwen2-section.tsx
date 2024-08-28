@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-import qwenImg from "@/app/public/Qwen2-Logo.jpeg";
+import qwenImg from "@/app/public/qwen2.png";
 import infoHeaderImage from "@/app/public/infoHeader.jpg";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
@@ -88,7 +88,7 @@ export default function Qwen2_Section({}: Props) {
             ทำให้นักเรียนและนักวิจัยสามารถทำงานได้อย่างรวดเร็วและมีประสิทธิภาพมากขึ้น
           </div>
         </div>
-        <Image src={qwenImg} alt="" width={620} />
+        <Image src={qwenImg} alt="" width={620} className=" rounded-xl" />
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-import claudeImg from "@/app/public/claude.svg";
+import claudeImg from "@/app/public/claude.jpg";
 import infoHeaderImage from "@/app/public/infoHeader.jpg";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
@@ -85,7 +85,7 @@ export default function Claude_Section({}: Props) {
             รวมถึงการวิเคราะห์ประสิทธิภาพของแชทบอทเพื่อปรับปรุงการทำงาน
           </div>
         </div>
-        <Image src={claudeImg} alt="" width={620} />
+        <Image src={claudeImg} alt="" width={550} className=" rounded-xl" />
       </div>
     </div>
   );

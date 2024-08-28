@@ -14,18 +14,18 @@ const Garph_section = (props: Props) => {
         จากกราฟเราสามารถแยกได้จากการเทียบข้อมูลประเภทต่างๆ
       </div>
       <div className="text-xl">
-        Quantity จะปรเมินจาก MMLU (Massive Multitask Language Understanding)
-        เป็นหนึ่งในชุดข้อมูล (benchmark)
+        <b>- Quantity</b> จะปรเมินจาก MMLU (Massive Multitask Language
+        Understanding) เป็นหนึ่งในชุดข้อมูล (benchmark)
         ที่ใช้ในการประเมินประสิทธิภาพของโมเดลภาษา AI บนหลากหลายภารกิจ (tasks)
         และหลายโดเมนความรู้ และแปลงเป็นดัชนีคุณภาพการประเมิน ออกมาเป็นร้อยละ
       </div>
       <div className="text-xl">
-        Speed ประเมินจาก การหาค่าเฉลี่ยจากการแสดงผล
+        <b>- Speed</b> ประเมินจาก การหาค่าเฉลี่ยจากการแสดงผล
         token(คือหน่วยพื้นฐานของข้อมูลที่โมเดลภาษาใช้ในการประมวลผลข้อความ)
         ต่อวินาที
       </div>
       <div className="text-xl">
-        Price คือราคาที่ประเมินจากระดับราคาต่อการประมวณผล 1M token
+        <b>- Price</b> คือราคาที่ประเมินจากระดับราคาต่อการประมวณผล 1M token
       </div>
     </div>
   );

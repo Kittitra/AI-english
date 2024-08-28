@@ -6,7 +6,6 @@ type Props = {};
 const Section = (props: Props) => {
   return (
     <div className="flex flex-row w-full pl-[10rem] font-bold justify-between gap-[25rem]">
-      <MoveDown size={75} />
       <div className="font-light pt-10 pr-10"></div>
     </div>
   );

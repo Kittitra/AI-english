@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-import llama from "@/app/public/llama.png";
+import llama from "@/app/public//llama.jpg";
 type Props = {};
 
 export default function Liama_Section({}: Props) {
@@ -67,7 +67,7 @@ export default function Liama_Section({}: Props) {
             ซึ่งต้องการความแม่นยำและการประมวลผลที่รวดเร็ว
           </div>
         </div>
-        <Image src={llama} alt="llamaImg" />
+        <Image src={llama} alt="llamaImg" width={550} className=" rounded-xl" />
       </div>
     </div>
   );

@@ -14,7 +14,7 @@ const chartData = [
   { Model: "Gemini", quanlity: 60, speed: 212, price: 0.13 },
   { Model: "LLama", quanlity: 72, speed: 30, price: 4.5 },
   { Model: "Mistral", quanlity: 72, speed: 41, price: 4.5 },
-  { Model: "Claude", quanlity: 7, speed: 76, price: 6 },
+  { Model: "Claude", quanlity: 77, speed: 76, price: 6 },
   { Model: "Qwen2", quanlity: 69, speed: 48, price: 0.9 },
 ];
 
