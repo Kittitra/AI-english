@@ -10,7 +10,6 @@ import Liama_Section from "@/app/chart/component/liama-section";
 import Mixtral_Section from "./component/mixtral-section";
 import Claude_Section from "./component/claude-section";
 import Qwen2_Section from "./component/qwen2-section";
-import Perplexity_Section from "./component/perplexity-section";
 import Garph from "./component/garph/garph";
 import Garph_section from "./component/garph_section";
 
