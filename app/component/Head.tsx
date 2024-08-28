@@ -24,7 +24,7 @@ const arrMenu = [
   },
 ];
 
-const Head = forwardRef<HTMLDivElement, Props>((props, ref) => {
+const Head = () => {
   return (
     <div className=" flex items-center justify-between">
       <div className="flex items-center gap-7 font-semibold text-md pr-[7rem]">
@@ -48,6 +48,6 @@ const Head = forwardRef<HTMLDivElement, Props>((props, ref) => {
       </div>
     </div>
   );
-});
+};
 
 export default Head;
