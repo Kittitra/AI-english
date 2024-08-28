@@ -11,12 +11,15 @@ const Footer = (props: Props) => {
         <div className="pt-2">Website แนะนำและให้ความรู้เกี่ยวกับเรื่อง AI</div>
       </div>
       <div>
-        <div className="text-xl pb-3 text-right">จัดทำโดย</div>
-        <div>นายจิรภัทร ศรีทิพย์</div>
-        <div>นายถนัดกิจ มงคล</div>
-        <div>นายวรวุฒิ ศรีสุคนธ์</div>
-        <div>นายวัชรพงษ์ ไชยยะ</div>
-        <div>นายกิตติธรา กาวินัน</div>
+        <div className="text-xl text-right">จัดทำโดย</div>
+        <hr className="pb-3" />
+        <div className="flex flex-col text-right">
+          <div>นายจิรภัทร ศรีทิพย์</div>
+          <div>นายถนัดกิจ มงคล</div>
+          <div>นายวรวุฒิ ศรีสุคนธ์</div>
+          <div>นายวัชรพงษ์ ไชยยะ</div>
+          <div>นายกิตติธรา กาวินัน</div>
+        </div>
       </div>
     </div>
   );
