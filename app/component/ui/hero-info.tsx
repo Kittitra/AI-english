@@ -19,7 +19,7 @@ const HeroInfo = (props: Props) => {
         <div className=" text-3xl">ปัญญาประดิษฐ์ ที่ช่วยให้ชีวิตดีขึ้น</div>
       </div>
       <div className="p-3 pt-10">
-        <Button className=" bg-slate-900 hover:bg-white hover:text-black ">
+        <Button className=" bg-transparent hover:bg-white hover:text-black ">
           <Link href="/info">
             <div className="flex gap-2">
               <div>เนื้อหาเพิ่มเติม</div>

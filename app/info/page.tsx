@@ -19,7 +19,7 @@ const Content = () => {
       <div id="info">
         <Infosection_2 />
       </div>
-      <div>
+      <div id="footer">
         <Infosection_3 />
       </div>
     </div>

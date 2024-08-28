@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-import HeroImg from "@/app/public/hero01.png";
+import HeroImg from "@/app/public/ai-main.jpg";
 import Head from "./Head";
 import HeroInfo from "./ui/hero-info";
 import { Button } from "@/components/ui/button";
@@ -21,7 +21,7 @@ const Hero = (props: Props) => {
           "
           width="0"
           height="0"
-          src=""
+          src={HeroImg}
           alt="hero"
         />
         <HeroInfo />

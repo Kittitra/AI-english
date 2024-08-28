@@ -11,7 +11,7 @@ type Props = {};
 export default function Infosection_3({}: Props) {
   return (
     <div
-      className="w-[100%] max-h-fit
+      className="w-[100%] max-h-fit mt-[-5rem]
       flex flex-row justify-start items-center px-40 gap-[5rem]
     "
     >
@@ -38,7 +38,7 @@ export default function Infosection_3({}: Props) {
           </div>
         </div>
         <div>
-          <Image className="w-[50rem] pb-10" src={chartAI} alt="" />
+          <Image className="w-[50rem] pb-10 rounded-lg" src={chartAI} alt="" />
         </div>
       </div>
     </div>
